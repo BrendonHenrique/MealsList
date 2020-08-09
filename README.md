@@ -16,17 +16,13 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Illustration 
 
-<h1> Introduce the expense title and value </h1>
+<h1> Select which category of meal do you want to eat </h1>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/BrendonHenrique/Week-Expenses-Flutter-App-/master/screenshots/001.jpg" width="400" height="300"> 
+    <img src="https://raw.githubusercontent.com/BrendonHenrique/MealsList/master/screenshots/ss0.jpeg" width="400" height="300"> 
 </p>
 
-<h1> Look for the expense date </h1>
+<h1> Search for your preferred meal, seeing which one is most expensive, harder and takes more time </h1>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/BrendonHenrique/Week-Expenses-Flutter-App-/master/screenshots/002.jpg" width="400" height="400">
+    <img src="https://raw.githubusercontent.com/BrendonHenrique/MealsList/master/screenshots/ss1.jpeg" width="400" height="400">
 </p>
 
-<h1> Save it and find out the week day more expensive </h1>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/BrendonHenrique/Week-Expenses-Flutter-App-/master/screenshots/003.jpg" width="400" height="400">
-</p>
