@@ -1,6 +1,4 @@
-# meals
-
-A new Flutter project.
+# Simple Meal List App . made by flutter
 
 ## Getting Started
 
@@ -14,3 +12,21 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+## Illustration 
+
+<h1> Introduce the expense title and value </h1>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/BrendonHenrique/Week-Expenses-Flutter-App-/master/screenshots/001.jpg" width="400" height="300"> 
+</p>
+
+<h1> Look for the expense date </h1>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/BrendonHenrique/Week-Expenses-Flutter-App-/master/screenshots/002.jpg" width="400" height="400">
+</p>
+
+<h1> Save it and find out the week day more expensive </h1>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/BrendonHenrique/Week-Expenses-Flutter-App-/master/screenshots/003.jpg" width="400" height="400">
+</p>
