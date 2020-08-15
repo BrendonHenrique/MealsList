@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
-import '../category_item/category_item.dart';
-import '../../data/dummy_data.dart';
+import '../components/category_item/category_item.dart';
+import '../data/dummy_data.dart';
 
-class CategoriesList extends StatelessWidget {
-  const CategoriesList({
+class CategoriesListScreen extends StatelessWidget {
+  const CategoriesListScreen({
     Key key,
   }) : super(key: key);
 

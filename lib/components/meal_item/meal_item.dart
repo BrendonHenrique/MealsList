@@ -11,7 +11,14 @@ class MealItem extends StatelessWidget {
   const MealItem({Key key, this.meal}) : super(key: key);
 
   void _selectMeal(ctx) {
-    Navigator.of(ctx).pushNamed(AppRoutes.MEAL_DETAIL, arguments: meal);
+    Navigator.of(ctx)
+        .pushNamed(AppRoutes.MEAL_DETAIL, arguments: meal)
+        .then((result) => {
+              if (result != null)
+                {print('favoritada ${result}')}
+              else
+                {print('sem resultado')}
+            });
   }
 
   @override

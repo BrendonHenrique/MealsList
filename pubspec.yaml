@@ -48,7 +48,9 @@ flutter:
     - assets/images/loading.gif
     - assets/images/loading2.gif
     - assets/images/loading3.gif
-
+    - assets/images/drawer-bg.png
+    - assets/images/black-woman.png
+    
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
@@ -77,4 +79,6 @@ flutter:
         - asset: assets/fonts/RobotoCondensed-Regular.ttf
         - asset: assets/fonts/RobotoCondensed-Italic.ttf
           style: italic
-    
+    - family: LibreCaslon
+      fonts: 
+        - asset: assets/fonts/LibreCaslonDisplay-Regular.ttf
