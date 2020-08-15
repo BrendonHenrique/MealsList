@@ -22,9 +22,10 @@ samples, guidance on mobile development, and a full API reference.
     <img src="https://raw.githubusercontent.com/BrendonHenrique/MealsList/master/screenshots/flutter_02.png" width="400" height="800"> 
 </p>
 
-<h1> Search for your preferred meal, seeing which one is most expensive, harder and takes more time </h1>
+<h1> Search for your preferred meal, seeing which one is most expensive, harder and takes more time. See recipe & cookings steps. </h1>
 <p align="center">
     <img src="https://raw.githubusercontent.com/BrendonHenrique/MealsList/master/screenshots/ss1.jpeg" width="400" height="800">
+    <img src="https://raw.githubusercontent.com/BrendonHenrique/MealsList/master/screenshots/flutter_03.png" width="400" height="800">
 </p>
 
 
