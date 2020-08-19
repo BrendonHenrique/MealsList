@@ -14,6 +14,19 @@ class TabsScreen extends StatefulWidget {
 }
 
 class _TabsScreenState extends State<TabsScreen> {
+  List<Widget> tabsPages = [];
+
+  @override
+  void initState() {
+    super.initState();
+    tabsPages = [
+      CategoriesListScreen(),
+      FavoriteScreen(
+        favoriteMeals: widget.favoriteMeals,
+      ),
+    ];
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -37,10 +50,7 @@ class _TabsScreenState extends State<TabsScreen> {
           ),
         ),
         body: TabBarView(
-          children: [
-            CategoriesListScreen(),
-            FavoriteScreen(),
-          ],
+          children: tabsPages.toList(),
         ),
         drawer: MealDrawer(),
       ),

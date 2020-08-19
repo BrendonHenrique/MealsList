@@ -5,7 +5,11 @@ import 'package:meals/components/meal_item/meal_photo.dart';
 import 'package:meals/models/meal.dart';
 
 class MealDetailsScreen extends StatelessWidget {
-  const MealDetailsScreen({Key key}) : super(key: key);
+  final Function(Meal meal) onToggleFavorite;
+  final bool Function(Meal meal) isFavorite;
+
+  const MealDetailsScreen({Key key, this.onToggleFavorite, this.isFavorite})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,6 +18,14 @@ class MealDetailsScreen extends StatelessWidget {
     final _mediaQuery = MediaQuery.of(context).size;
     final allowedHeight = _mediaQuery.height;
     final allowedWidth = _mediaQuery.width;
+
+    Color favoriteIconColor(bool isFavorite) {
+      if (isFavorite) {
+        return Colors.pink;
+      } else {
+        return Colors.white;
+      }
+    }
 
     return Scaffold(
       appBar: AppBar(
@@ -34,10 +46,10 @@ class MealDetailsScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         child: Icon(
           Icons.favorite,
-          color: Colors.white,
+          color: favoriteIconColor(isFavorite(meal)),
         ),
         onPressed: () {
-          Navigator.of(context).pop(meal.title);
+          onToggleFavorite(meal);
         },
       ),
     );
